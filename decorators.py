@@ -83,3 +83,57 @@ def uppercase(func):
 
 greet_upper = uppercase(greet)
 print(greet_upper())
+
+
+
+# Ejercicio 6
+
+#You can apply a decorator to a function using the @ sign. 
+# It improves the code readability and provides a clean separation between 
+# the function and its decoration.
+
+#When a function with a decorator is called, 
+# it automatically includes the behavior defined in the decorator.
+
+def uppercase(func):
+    def wrapper():
+        orig_message = func()
+        modified_message = orig_message.upper()
+        return modified_message
+    return wrapper
+
+@uppercase
+def greet():
+    return "Welcome!"
+
+# Using the decorated function
+print(greet())
+
+
+
+# Ejercicio 7
+
+#Decorators are a powerful feature, offering a concise,
+#  readable, and efficient way to enhance the functionality
+#  of existing functions.
+
+#You can apply the same decorator to several different functions:
+
+def stock_status_decorator(func):
+    def wrapper(item):
+        result = func(item)
+        print(result, ": stock status for", item)
+        return result
+    return wrapper
+
+@stock_status_decorator
+def restock_item(item):
+    return "Restocked"
+
+@stock_status_decorator
+def sell_item(item):
+    return "Sold"
+
+print(restock_item("Laptop"))
+print(sell_item("Smartphone"))
+
