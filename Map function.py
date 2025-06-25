@@ -100,3 +100,19 @@ names = ["John", "Emma", "Jake", "Rachel", "James"]
 filtered = list(filter(lambda name: name[0] == 'J', names))
 
 print(filtered)
+
+
+# Ejercicio 9
+# The filter() function is used to filter out elements from an iterable based on a condition.
+# In this example, we filter out empty answers from a list of user responses.
+
+user_answers = ["Yes", "", "No", "", "Maybe", "", "Yes"]
+
+# Create a new list without empty answers
+# using filter with a lambda expression
+
+filter1 = list(filter(lambda x: x != "", user_answers))
+
+# Display the cleaned list of answers
+
+print(filter1)
