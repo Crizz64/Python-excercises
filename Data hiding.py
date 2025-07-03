@@ -9,7 +9,6 @@
 
 
 
-
 #Consider the Car class provided below. After creating an instance of this class,
 #  you can access and modify its attributes, as well as call its methods. 
 # Open the code, explore its functionality, and run it to observe the results.
