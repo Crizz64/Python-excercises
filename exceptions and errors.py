@@ -30,7 +30,7 @@ print("Happy Shopping")
 #Traducir curso
 #You can have multiple except blocks to handle each possible exception specifically. As a best practice, it is recommended to output a definitive message for each type of handled exception.
 
-colors = ['Red', 'Yellow', 'Green']
+colors = ['Red', 'Yellow', 'Green'] 
 try:
   print(colors[10])
 except IndexError:
@@ -62,8 +62,10 @@ except IndexError:
     print("wrong index")
 
 
-    #ejercicio #6
-    #You can use the finally statement to perform an operation after the try/except block, no matter if an exception occurred or not.
+#ejercicio #6
+
+#You can use the finally statement to perform an operation after the 
+# try/except block, no matter if an exception occurred or not.
 
 prices = [559, 879, "N/A", 349]
 try:
@@ -86,8 +88,9 @@ finally:
   print("Happy reading!")
 
 
-    #Ejercicio 8
-    #The else statement can be used in conjunction with the try/except block and will execute only when no error occurs in the try block.
+#Ejercicio 8
+# The else statement can be used in conjunction with the try/except block and 
+# will execute only when no error occurs in the try block.
 
 books = ['Harry Potter', 'Dune', 'Emma']
 try:
@@ -122,7 +125,9 @@ else:
 
 
   #ejercicio 11
-  #You can trigger your own exceptions based on specific conditions using the raise statement. This will immediately stop the program's execution and indicate an error has occurred.
+  #You can trigger your own exceptions based on specific conditions 
+  # using the raise statement. This will immediately stop the program's 
+  # execution and indicate an error has occurred.
 
 print("Rate from 0 to 10")
 rate = 9
@@ -134,3 +139,8 @@ if rate > 10 or rate < 0:
 rating = 15
 if rating > 10 or rating < 0:
   raise ValueError("Rate from 0 to 10")
+
+
+temp = -15
+if temp > 50 or temp < -10:
+  raise ValueError("Invalid range")
