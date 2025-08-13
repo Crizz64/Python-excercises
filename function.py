@@ -1,6 +1,11 @@
+num1 = int(input("Ingrese el primer número: "))
+num2 = int(input("Ingrese el segundo número: "))
+
 def suma(num1, num2):
     resultado = num1+num2
     return resultado
+
+print(f"la suma es {suma(num1, num2)}")
 
 def potencia ():
     valor = suma (2,4)
