@@ -1,5 +1,12 @@
 #tipos de datos
 
+seats= 500 # número inicial de asientos
+while seats > 0: # ¿hay asientos disponibles?
+  print("Sell ticket") # boleto vendido
+  seats -= 1 # número de asientos actualizado
+
+
+
 
 contador = 0
 
