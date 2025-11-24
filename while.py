@@ -6,7 +6,7 @@ while seats > 0: # ¿hay asientos disponibles?
   seats -= 1 # número de asientos actualizado
 
 
-
+#ejercicio 1
 
 contador = 0
 
