@@ -17,6 +17,26 @@ while number >= 0:
 # Usa un bucle while para la cuenta regresiva
 
 
+#EJERCICIO DE PRÁCTICA
+
+#Imagina que eres un científico observando un nuevo tipo de célula bajo el microscopio. Este tipo de célula se divide en 2 células hijas cada 24 horas, lo que significa que la población celular se duplica cada día.
+
+#Tarea
+
+#Completa el código para tomar la población celular inicial y el número de días que estás observando las células para calcular la población celular al final de cada día en el siguiente formato:
+
+# población inicial
+cells = int(input())
+
+# número de días a simular
+days = int(input())
+
+counter = 1
+while counter <= days:
+    cells *= 2          # duplicamos la población
+    print(f"Day {counter}: {cells}")
+    counter += 1
+
 #ejercicio 1 parte 2
 
 
