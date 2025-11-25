@@ -32,10 +32,10 @@ cells = int(input())
 days = int(input())
 
 counter = 1
-while counter <= days:
+while counter <= days: # bucle para cada día
     cells *= 2          # duplicamos la población
-    print(f"Day {counter}: {cells}")
-    counter += 1
+    print(f"Day {counter}: {cells}") # mostramos la población actual
+    counter += 1      # incrementamos el contador de días
 
 #ejercicio 1 parte 2
 
