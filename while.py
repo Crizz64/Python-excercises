@@ -8,6 +8,18 @@ while seats > 0: # ¿hay asientos disponibles?
 
 #ejercicio 1
 
+# Toma el número como entrada
+number = int(input())
+
+while number >= 0:
+    print(number)
+    number -= 1
+# Usa un bucle while para la cuenta regresiva
+
+
+#ejercicio 1 parte 2
+
+
 contador = 0
 
 while True:
