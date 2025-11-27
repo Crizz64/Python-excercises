@@ -49,3 +49,45 @@ if x > 0:
     print(f"{frase} contiene vocales")
 else:
     print(f"{frase} no contiene vocales")
+
+
+
+#ejercicio 6
+
+age = 22
+if age >= 18:
+  print("Regular price")
+else:
+  print("Discount")
+
+
+#ejercicio 7
+
+age = 30
+if age >= 18:
+  print("Regular price")
+else:
+  print("Discount")
+print("Proceed to payment")
+
+
+
+
+#ejercicio 8
+
+age = 32
+is_student = True
+if age < 18 or is_student:
+  print("Discount")
+else: 
+  print("Regular price")
+
+
+#ejercicio 9
+
+age = 32
+is_student = True
+if age < 18 or is_student:
+  print("Discount")
+else: 
+  print("Regular price")
