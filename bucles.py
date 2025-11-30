@@ -122,3 +122,13 @@ if age < 18:
 else:
   #se ejecuta este código si el cliente tiene 18 años o más
   print("Regular price")
+
+
+#ejercicio 12
+age = 29
+if age < 18:
+  if is_student:
+    print("20% discount")
+else:
+  print("Regular price")
+print("Proceed to payment")
