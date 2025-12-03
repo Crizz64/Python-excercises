@@ -1,5 +1,5 @@
-for i in range(10):
-    print(i,end=" , ")
+for i in range(10): #esto es un bucle
+    print(i,end=" , ") # aca se inprme en pantalla 10 veces el bucle
 
 
 #ejercicio 2
