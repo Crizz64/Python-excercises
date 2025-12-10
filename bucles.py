@@ -132,3 +132,27 @@ if age < 18:
 else:
   print("Regular price")
 print("Proceed to payment")
+
+
+#ejercicio 13
+# Juegos instalados
+games = [
+  'Soccer', 'Tic Tac Toe', 'Snake',
+  'Puzzle', 'Rally']
+
+# Tomar la elección del jugador como un número de entrada
+choice = int(input())
+
+# Mostrar el juego correspondiente
+
+if choice == 0:
+  print(games[0])
+
+elif choice == 2:
+  print(games[2])
+
+elif choice == 4:
+  print(games[4])
+
+else:
+  print("option doesn´t exist")
