@@ -22,4 +22,4 @@ animals = ["cat", "dog", "bird", "cow"]
 print(animals[-1]) # Último elemento
 print(animals[-2]) # Penúltimo elemento
 print(animals[-3:]) # Últimos 3 elementos
-print(animals[-3:-1])
+print(animals[-3:-1]) # Desde el antepenúltimo hasta el penúltimo elemento
