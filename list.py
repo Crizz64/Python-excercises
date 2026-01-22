@@ -23,3 +23,21 @@ print(animals[-1]) # Último elemento
 print(animals[-2]) # Penúltimo elemento
 print(animals[-3:]) # Últimos 3 elementos
 print(animals[-3:-1]) # Desde el antepenúltimo hasta el penúltimo elemento
+
+
+
+#len() es una de las funciones incorporadas más útiles.
+
+ #len() significa longitud y, cuando se utiliza en listas, devuelve el número de elementos en la lista.
+
+movies = ["Avatar", "Titanic", "Avengers"]
+print(len(movies))
+
+
+
+#La función append() agrega un nuevo elemento al final de una lista.
+#append() se llama utilizando la notación de punto porque es específica de las listas
+
+songs = ["Yesterday", "Hello", "Believer"]
+songs.append("Imagine")
+print(songs)
