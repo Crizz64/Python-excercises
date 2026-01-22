@@ -41,3 +41,13 @@ print(len(movies))
 songs = ["Yesterday", "Hello", "Believer"]
 songs.append("Imagine")
 print(songs)
+
+
+
+#La función insert() le permite agregar un nuevo elemento en cualquier posición de la lista.
+#insert() toma dos argumentos: el índice donde desea insertar el nuevo elemento y el elemento en
+
+items = ["book", "pen", "pencil"]
+items.insert(2,"marker")
+print(items)
+print(items[2])
