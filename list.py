@@ -51,3 +51,13 @@ items = ["book", "pen", "pencil"]
 items.insert(2,"marker")
 print(items)
 print(items[2])
+
+
+
+#La función pop() elimina un elemento de una lista y lo devuelve.
+#Si no se proporciona ningún índice, pop() elimina y devuelve el último elemento de la lista
+
+items = ["book", "pen", "pencil"]
+items.pop(1)
+print(items)
+print(items[1])
