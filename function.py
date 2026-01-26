@@ -1,3 +1,22 @@
+
+#-- ejercicio inicial
+
+#Una función puede requerir argumentos para completar sus tareas. Los argumentos se colocan dentro de los paréntesis () después del nombre de la función.
+
+#definición de la función
+def personal_greet(name): 
+  print("Hello", name)
+  print("Have a great day")
+
+
+#llamadas a la función
+personal_greet("Sarah") 
+personal_greet("Henry")
+
+
+
+
+
 num1 = int(input("Ingrese el primer número: "))
 num2 = int(input("Ingrese el segundo número: "))
 
