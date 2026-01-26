@@ -61,3 +61,24 @@ items = ["book", "pen", "pencil"]
 items.pop(1)
 print(items)
 print(items[1])
+
+
+
+
+#Exercicio 5
+
+#Tarea
+
+#Escribe un programa para tomar un nombre como entrada, agregarlo al final de la cola y mostrar la lista resultante.
+
+
+queue = ['John', 'Amy', 'Bob', 'Adam']
+
+#tomar una entrada
+name = input("")
+
+#agregar el valor tomado al final de la cola
+queue.append(name)
+
+#mostrar la cola actualizada
+print(queue)
