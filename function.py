@@ -173,3 +173,19 @@ def info(title, func):
   return func(title)
 
 print(info("The Great Gatsby", book_title))
+
+
+
+# Ejercicio 11
+
+#tomar el peso como entrada
+weight = int(input())
+
+#completar la función
+def shipping_cost(weight):
+    x = weight * 5
+    print(x)
+
+
+#llamar a la función
+shipping_cost(weight)
