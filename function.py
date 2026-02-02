@@ -189,3 +189,27 @@ def shipping_cost(weight):
 
 #llamar a la función
 shipping_cost(weight)
+
+
+
+# Ejercicio 12
+
+def rect(length, width):
+  area = length * width
+  perimeter = 2 * length + 2 * width
+  return area, perimeter #2 valores
+
+x, y = rect(50, 100) #2 variables
+print(x, y)
+
+
+
+#tomar una palabra como entrada
+word = input()
+
+def hashtag(word):
+    #completar el cuerpo de la función
+    return "#" + word
+
+#mostrar el resultado
+print(hashtag(word))
